@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaswanth Koppala | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="loader-text">JK</div>
+    </div>
+
+    <div id="scroll-progress-bar"></div>
+    <div id="cursor-light"></div>
+    <div class="animated-bg"></div>
+
+    <div class="sticky-hero">
+        <main class="bento-grid">
+            <div class="bento-item" id="profile" data-parallax="0.1">
+                <div class="profile-pic"><img src="profile-photo.jpg" alt="Jaswanth Koppala"></div>
+                <div class="profile-info">
+                    <h1 data-reveal-letters>Jaswanth Koppala</h1>
+                    <p data-reveal-letters>Pega Enthusiast & Developer</p>
+                </div>
+            </div>
+            <div class="bento-item" id="resume" data-parallax="0.3">
+                <a href="jash-res.pdf" download="Jaswanth Koppala - Resume.pdf" class="bento-button">
+                    <i class="fas fa-download"></i>
+                    <span>Download Resume</span>
+                </a>
+            </div>
+            <div class="bento-item" id="skills" data-parallax="0.2">
+                <div class="skills-list"><span
+                        id="pega-skill-btn">Pega</span><span>Java</span><span>Python</span><span>Web
+                        Dev</span><span>Linux</span></div>
+            </div>
+            <div class="bento-item" id="profiles" data-parallax="0.1">
+                <a href="https://github.com/Jash-18" target="_blank" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jaswanth-koppala-024943250/" target="_blank" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://accounts.pega.com/profile/JaswanthK17111250" target="_blank" aria-label="Pega Profile"
+                    class="pega-icon">P</a>
+            </div>
+            <div class="bento-item" id="clock-theme" data-parallax="0.15">
+                <div class="time" id="time-display">00:00:00</div>
+                <a href="#full-contact" class="bento-cta-btn" id="bento-contact-btn">Get in Touch</a>
+                <button id="theme-toggle" aria-label="Toggle Theme"><i class="fas fa-sun"></i><i
+                        class="fas fa-moon"></i></button>
+            </div>
+        </main>
+        <div class="scroll-prompt">
+            <p>Scroll Down</p><i class="fas fa-chevron-down"></i>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <section id="full-about" class="content-section">
+            <div class="title-container">
+                <h2 data-reveal-letters>About Me</h2>
+            </div>
+            <p>I am a detail-driven developer with a passion for designing and implementing innovative solutions. My
+                journey into technology has been fueled by a desire to solve complex problems and build applications
+                that are not only functional but also efficient and user-friendly. A quick learner and a dedicated team
+                player, I thrive in collaborative environments where I can contribute to and learn from my peers. My
+                experience with Pega has solidified my interest in process automation and building scalable systems that
+                drive business growth.</p>
+        </section>
+
+        <section id="full-education" class="content-section">
+            <div class="title-container">
+                <h2 data-reveal-letters>Education</h2>
+            </div>
+            <div class="project-card">
+                <h3>B.Tech, Computer Science Engineering</h3>
+                <p>LENDI Institute of Engineering and Technology, Vijayanagaram. (Sept 2022 - 2025). Current CGPA:
+                    8.96</p>
+            </div>
+            <div class="project-card">
+                <h3>Diploma in Electrical & Electronics Engineering</h3>
+                <p>Sai Ganapathi Polytechnic College, Visakhapatnam. (2019 - 2022). Final Percentage: 85.6%</p>
+            </div>
+            <div class="project-card">
+                <h3>SSC (Secondary School)</h3>
+                <p>Madhurawada E.M School, Visakhapatnam. (2018 - 2019). Final CGPA: 9.3</p>
+            </div>
+        </section>
+
+        <section id="full-projects" class="content-section">
+            <div class="title-container">
+                <h2 data-reveal-letters>Projects</h2>
+            </div>
+            <div class="project-card">
+                <h3>Patient Registration Onboarding</h3>
+                <p>A robust application designed using the Pega Platform to streamline and automate the patient
+                    registration process in healthcare settings. This solution enhances patient experience, reduces
+                    administrative burden, and improves data accuracy through intelligent case management.</p>
+            </div>
+            <div class="project-card">
+                <h3>Courier Feature Application</h3>
+                <p>A comprehensive application built on Pega to automate courier operations from package intake to final
+                    delivery. The system provides real-time tracking, optimizes delivery routes, and improves overall
+                    resource utilization for enhanced customer satisfaction.</p>
+            </div>
+            <div class="project-card">
+                <h3>Plant Disease Detection System</h3>
+                <p>An application that identifies plant diseases from images using a machine learning model built with
+                    Python and TensorFlow. The goal was to provide an accessible tool for farmers to quickly diagnose
+                    crop issues,with an in-built chatbot which has the ability to understand multiple languages and helps farmers to achive crop yields .</p>
+                <a href="https://github.com/Jash-18/ProjectXO" target="_blank" class="project-source-link">View Source
+                    Code <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <section id="full-experience" class="content-section">
+            <div class="title-container">
+                <h2 data-reveal-letters>Experience & Internships</h2>
+            </div>
+            <div class="project-card">
+                <h3>Industrial Training at CEMS</h3>
+                <p>Completed a six-month industrial training program from 21/01/2022 to 21/06/2022 at the Centre of
+                    Excellence in Maritime & Shipbuilding, Visakhapatnam. Focused on 'Basics of Induction Motors, Basics
+                    of AC-DC Drives and House wiring'.</p>
+            </div>
+            <div class="project-card">
+                <h3>Amazon AWS Cloud</h3>
+                <p>Completed a virtual internship with Amazon Web Services from May to July 2023 which was from AICTE, gaining hands-on
+                    experience in cloud computing concepts and services from industry experts to build practical,
+                    in-demand skills.</p>
+            </div>
+            <div class="project-card">
+                <h3>Palo Alto Cybersecurity</h3>
+                <p>Participated in a virtual internship from December 2022 to February 2023 which was from AICTE, offering a thorough
+                    introduction to the cybersecurity field, with practical experience in key concepts, methods, and
+                    industry best practices.</p>
+            </div>
+        </section>
+
+        <section id="full-contact" class="content-section">
+            <div class="title-container">
+                <h2 data-reveal-letters>Get In Touch</h2>
+            </div>
+            <p class="contact-text">I'm currently seeking new opportunities and am always open to discussing creative
+                ideas. Let's create something great together.</p>
+            <div class="contact-actions">
+                <a href="mailto:jaswanthrock551@gmail.com" id="contact-slider-link">
+                    <div id="contact-slider-container">
+                        <div id="contact-slider-track">
+                            <div id="slider-handle"><i class="fas fa-paper-plane"></i></div>
+                            <span class="slider-text">Slide to Contact</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="contact-socials">
+                    <a href="https://github.com/Jash-18" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jaswanth-koppala-024943250/" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="modal-overlay">
+        <div id="modal-content">
+            <button id="modal-close-btn">&times;</button>
+            <h2>Pega Certifications</h2>
+            <div class="certification-item">
+                <h3>Pega Certified System Architect (CSA)</h3>
+                <p>Achieved: Jul 29, 2024 - Validates the core skills required to build and contribute to Pega
+                    applications.</p>
+            </div>
+            <div class="certification-item">
+                <h3>Pega Certified Senior System Architect (CSSA)</h3>
+                <p>Achieved: Mar 4, 2025 - Demonstrates advanced knowledge of Pega architecture for designing reusable
+                    and scalable applications.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
