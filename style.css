@@ -155,4 +155,32 @@ body.scrolling-up .visible .project-card { transform: skewY(1deg); }
 @media (max-width: 900px) {
     .bento-grid { grid-template-columns: 1fr; }
     #profile, #resume, #skills, #profiles, #clock-theme { grid-column: span 1; }
+
+}
+/* --- Prompt Engineering Animation (Same as PEGA & Get in Touch) --- */
+#prompt-eng-btn {
+  position: relative;
+  display: inline-block;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  animation: pulse 2s infinite;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#prompt-eng-btn a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+#prompt-eng-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+  border-color: var(--accent-color);
+}
+
+#prompt-eng-btn:hover a {
+  color: var(--bg-color);
 }
