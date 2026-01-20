@@ -149,7 +149,7 @@ body.scrolling-up .visible .project-card { transform: skewY(1deg); }
         margin-top:5rem;
     }
 }
-#prompt-eng-btn {
+#prompt-eng-btn , #webdev-btn {
   position: relative;
   display: inline-block;
   border: 1px solid var(--border-color);
@@ -160,19 +160,20 @@ body.scrolling-up .visible .project-card { transform: skewY(1deg); }
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-#prompt-eng-btn a {
+#prompt-eng-btn a , #webdev-btn a{
   text-decoration: none;
   color: var(--text-color);
   font-weight: 500;
 }
 
-#prompt-eng-btn:hover {
+#prompt-eng-btn:hover , #webdev-btn:hover{
   background-color: var(--accent-color);
   color: var(--bg-color);
   border-color: var(--accent-color);
 }
 
-#prompt-eng-btn:hover a {
+#prompt-eng-btn:hover a, #webdev-btn:hover a {
   color: var(--bg-color);
 }
+
 
